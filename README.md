@@ -1,6 +1,6 @@
 # Go Crawler
 
-This is example sending an crawling message to slack.
+This is an example sending an crawling message to slack.
 
 ## Requirements
 
@@ -39,10 +39,19 @@ selector: DOM_SELECTOR # ex) "#copyright"
 reciever: SLACK_WEBHOOK_URL # "https://hooks.slack.com/services/XXX/XXX/XXX"
 ```
 
+
 3. Run
 
 ```
 $ go run main.go
+```
+
+4. Use a custom config file with subcommand.
+
+````sh
+# Build app
+$ go build -o crawler main.go
+$ ./crawler -c YOUR_CUSTOM_YAML.yaml
 ```
 
 # License
