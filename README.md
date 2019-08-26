@@ -36,7 +36,7 @@ $ go get
 ```yaml
 crawling_url: CRAWLING_URL # ex) "https://www.daangn.com/"
 selector: DOM_SELECTOR # ex) "#copyright"
-reciever: SLACK_WEBHOOK_URL # "https://hooks.slack.com/services/XXX/XXX/XXX"
+receiver: SLACK_WEBHOOK_URL # "https://hooks.slack.com/services/XXX/XXX/XXX"
 ```
 
 

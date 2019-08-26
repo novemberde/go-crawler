@@ -17,10 +17,8 @@ package main
 
 import (
 	"go-crawler/cmd"
-	"go-crawler/internal"
 )
 
 func main() {
 	cmd.Execute()
-	internal.Run()
 }
